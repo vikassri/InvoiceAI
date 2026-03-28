@@ -1,5 +1,5 @@
 
-name: Streamlit
+name: InvoiceAI
 description: Run a Streamlit app inside CML.
 author: Cloudera Inc.
 specification_version: 1.0
