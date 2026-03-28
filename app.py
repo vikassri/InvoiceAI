@@ -137,9 +137,9 @@ MODELS = [
     "microsoft/phi-3.5-vision-instruct",
 ]
 SYSTEM_PROMPTS = {
-    "Invoice Extraction": "Extract all invoice details in clean JSON format. Include: invoice_number, date, due_date, vendor, bill_to, line_items (array with description/qty/unit_price/total), subtotal, tax, total_amount, payment_terms, notes., Please do not create any data your self",
-    "Receipt Parsing":    "Parse this receipt and return JSON with: store_name, date, items (name/price), subtotal, tax, total, payment_method. Please do not create any data your self",
-    "PO / Order Form":    "Extract purchase order details as JSON: po_number, order_date, vendor, ship_to, items (sku/description/qty/price), total. Please do not create any data your self",
+    "Invoice Extraction": "Extract all invoice details in clean JSON format. Include: invoice_number, date, due_date, vendor, bill_to, line_items (array with description/qty/unit_price/total), subtotal, tax, total_amount, payment_terms, notes., Please do not create or assume any data your self, incase you unable to parse though error like unable to parse",
+    "Receipt Parsing":    "Parse this receipt and return JSON with: store_name, date, items (name/price), subtotal, tax, total, payment_method. Please do not create and assume any data your self, incase you unable to parse though error like unable to parse",
+    "PO / Order Form":    "Extract purchase order details as JSON: po_number, order_date, vendor, ship_to, items (sku/description/qty/price), total. Please do not create and assume any data your self, incase you unable to parse though error like unable to parse",
     "Custom":             "",
 }
 
