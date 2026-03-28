@@ -75,7 +75,7 @@ streamlit run app.py
 
 ---
 ## 📄 Example Output
-![Invoice Sample](examples/ss1.png)
+![Invoice Sample](ss1.png)
 
 ---
 
