@@ -134,7 +134,7 @@ html,body,[class*="css"]{{font-family:'DM Sans',sans-serif;}}
 # ── Constants ──────────────────────────────────────────────────────────────────
 INVOKE_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 MODELS = [
-    "google/gemma-3-27b-it","microsoft/phi-3.5-vision-instruct",
+    "microsoft/phi-3.5-vision-instruct",
 ]
 SYSTEM_PROMPTS = {
     "Invoice Extraction": "Extract all invoice details in clean JSON format. Include: invoice_number, date, due_date, vendor, bill_to, line_items (array with description/qty/unit_price/total), subtotal, tax, total_amount, payment_terms, notes., Please do not create any data your self",
